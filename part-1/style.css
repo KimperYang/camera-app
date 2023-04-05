@@ -42,8 +42,8 @@ html, body{
     position: fixed;
     text-align: center;
     box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
-    bottom: 30px;
-    left: calc(50% - 350px);
+    bottom: 130px;
+    left: calc(50% - 100px);
 }
 #select2{
     width: 50px;
@@ -55,8 +55,8 @@ html, body{
     position: fixed;
     text-align: center;
     box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
-    bottom: 30px;
-    left: calc(50% + 150px);
+    bottom: 130px;
+    left: calc(50%);
 }
 .taken{
     height: 100px!important;
