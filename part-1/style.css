@@ -33,7 +33,7 @@ html, body{
 }
 
 #select1{
-    width: 150px;
+    width: 50px;
     border-radius: 30px;
     border: none;
     padding: 15px 20px;
@@ -46,7 +46,7 @@ html, body{
     left: calc(50% - 350px);
 }
 #select2{
-    width: 150px;
+    width: 50px;
     border-radius: 30px;
     border: none;
     padding: 15px 20px;
