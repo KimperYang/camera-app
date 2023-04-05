@@ -23,10 +23,19 @@
 		    
 		    <!-- Camera output -->
 		    <img src="//:0" alt="" id="camera--output">
-
+			<form>
 		    <!-- Camera trigger -->
-		    <button id="camera--trigger">Take a picture</button>
-
+				<div id="select1">
+				<input type="radio" id="normal" name="quality" value="0">
+				<label for="normal">Normal</label><br>
+				</div>
+				<div id="select2">
+				<input type="radio" id="outlier" name="quality" value="1">
+				<label for="outlier">Abnormal</label><br> 
+				</div>
+		    	<button type='submit' id="camera--trigger">Take a picture</button>
+			</form>
+			
 		</main>
 
 		<!-- Reference to your JavaScript file -->
